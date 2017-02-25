@@ -250,11 +250,13 @@ body{
 	height: 200px;
 	background-color: #e8e8e8;
 	margin-top: 10px;
+	clear: both;
 }
 .copyright_content{
 	width: 1000px;
 	height: 180px;
 	margin: 0 auto;
+	padding-top: 20px;
 }
 
 .copyright_content li{
@@ -263,6 +265,98 @@ body{
 	width: 200px;
 	background: url(../img/line.png) no-repeat right center;
 	text-align: center;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	/*font-size: 18px;*/
+}
+.copyright_content a{
+	text-decoration: none;
+	color: #999;
+	font-size: 18px;
+}
+.copyright_content li ul li a{
+	font-size: 14px;
+}
+.list_main{
+	_height: 350px;
+	min-height: 350px;
+	background: #fff;
+	margin-top: 10px;
+}
+.news_type{
+	width: 220px;
+	height: 350px;
+	border: 1px solid #E8E8E8;
+	/*background-color: #9fc;*/
+	float: left;
+}
+.list_box{
+	width: 770px;
+	_height: 350px;
+	min-height: 350px;
+	border: 1px solid #E8E8E8;
+	/*background-color: #f9f;*/
+	float: right;
+}
+.news_type h2{
+	height: 35px;
+	line-height: 35px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #666;
+	background: url(../img/titile_bg.gif) repeat-x;
+	padding-left: 20px;
+}
+.news_type_content{
+	height: 35px;
+	background: url(../img/content_bg.gif) repeat-x;
+	
+}
+.news_type_content li{
+	list-style-type: none;
+	height: 30px;
+	line-height: 30px;
+}
+.news_type_content li a{
+	color: #666;
+	text-decoration: none;
+	background: url(../img/li_bg.gif) no-repeat left center;
+	padding-left: 15px;
+	display: block;
+	
+}
+.news_type_content li a:hover{
+	color: #009dcf;
+	background: url(../img/li_bg2.gif) no-repeat left center;
+	background-color: #f2f2f2;
+}
+.list_box h2{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #666;
+	height: 35px;
+	line-height: 35px;
+	background: url(../img/type_bg.png) repeat-x;
+	padding-left: 20px;
 }
 
 
+.page{
+	height: 40px;
+	margin-top: 10px;
+	text-align: center;
+}
+.page a{
+	text-decoration: none;
+	border: 1px solid #E8E8E8;
+	margin: 5px;
+	padding: 5px 10px;
+	display: inline-block;
+}
+.page a:link, .page a:visited{
+	color: #000000;
+}
+.page a:hover, .page a:active{
+	color: #FFFFFF;
+	background-color: #cc1b1b;
+}
